@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 <LinearLayout
     android:layout_width="match_parent"
@@ -16,36 +17,34 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/rd1"
+            android:id="@+id/rdWill"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:text="Will Smith"
 
             />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
         <RadioButton
-            android:id="@+id/rd2"
+            android:id="@+id/rdSparrow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:text="Mr. Sparrow"
              />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
         <RadioButton
-            android:id="@+id/rd3"
+            android:id="@+id/rdDon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:text="Don Arnold"
 
             />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </RadioGroup>
+        </RadioGroup>
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
 
