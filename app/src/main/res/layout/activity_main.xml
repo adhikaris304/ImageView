@@ -16,25 +16,32 @@
         android:orientation="horizontal">
 
         <RadioButton
+            android:id="@+id/rd1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="60dp"
+            android:layout_weight="1"
+
             />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <RadioButton
+            android:id="@+id/rd2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="60dp" />
+            android:layout_weight="1"
+             />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <RadioButton
+            android:id="@+id/rd3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="70dp" />
+            android:layout_weight="1"
+
+            />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
